@@ -1,0 +1,18 @@
+.nav_bar h1 {
+  color: #8e5329;
+
+
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background: #B09d93;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+}
+
+body {
+  background-color: #DfE3e5;
+}
