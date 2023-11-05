@@ -1,0 +1,21 @@
+.nav_bar h1 {
+  color: #8e5329;
+  font-size: 50px;
+}
+
+.options_list_nav{
+  display: flex;
+  position: absolute;
+  left: 40px;
+  font-size: 30px;
+}
+
+.nav_bar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background: #B09d93;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+}

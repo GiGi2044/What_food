@@ -1,18 +1,80 @@
-.nav_bar h1 {
-  color: #8e5329;
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
 
-
-}
-
-.nav_bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90px;
-  background: #B09d93;
-  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
-}
+/* Components */
+@import url(components/nav-bar_main.css);
+@import url(components/nav_bar_secondary.css);
 
 body {
   background-color: #DfE3e5;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.meal_options {
+  background-color: #f8f8ff;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+ul {
+  padding-inline-start: 0;
+  padding: 20px 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0;
+}
+
+ul li {
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+img {
+  padding: 20px;
+  height: 180px;
+  width: 200px;
+  max-inline-size: 100%;
+  aspect-ratio: 1/1;
+  block-size: auto;
+  object-fit:fill;
+  border-radius: 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
